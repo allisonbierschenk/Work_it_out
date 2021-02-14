@@ -91,14 +91,14 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 
 This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example.
 
-| Day    | Deliverable                                                | Status     |
-| ------ | ---------------------------------------------------------- | ---------- |
-| Feb 15 | Create Project Proposal / Wireframes / Component Heirarchy | Complete   |
-| Feb 16 | Project Proposal Approval                                  | Incomplete |
-| Feb 17 | Project Approval                                           | Incomplete |
-| Feb 18 | Core Application Structure (HTML, CSS, etc.)               | Incomplete |
-| Feb 19 | Pseudocode / actual code                                   | Incomplete |
-| Feb 22 | Initial Clickable Model                                    | Incomplete |
+| Day       | Deliverable                                                                                | Status     |
+| --------- | ------------------------------------------------------------------------------------------ | ---------- |
+| Feb 13-15 | Create Project Proposal / Wireframes / Component Heirarchy / Timelines / Airtable Setup    | Complete   |
+| Feb 16    | Project Proposal Approval / Pseudocode / (HTML, App.js, Index.js,Route) / Start Components | Incomplete |
+| Feb 17    | Components / Link on App.js Approval                                                       | Incomplete |
+| Feb 18    | Finish up Components / Start CSS / Mobile Query                                            | Incomplete |
+| Feb 19    | CSS / Bug Testing & Tweaking                                                               | Incomplete |
+| Feb 22    | Extra time for anything that pushes past the above timeline                                | Incomplete |
 
 ## Timeframes
 
