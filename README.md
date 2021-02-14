@@ -95,8 +95,8 @@ This schedule will be used to keep track of your progress throughout the week an
 | --------- | ------------------------------------------------------------------------------------------ | ---------- |
 | Feb 13-15 | Create Project Proposal / Wireframes / Component Heirarchy / Timelines / Airtable Setup    | Complete   |
 | Feb 16    | Project Proposal Approval / Pseudocode / (HTML, App.js, Index.js,Route) / Start Components | Incomplete |
-| Feb 17    | Components / Link on App.js Approval                                                       | Incomplete |
-| Feb 18    | Finish up Components / Start CSS / Mobile Query                                            | Incomplete |
+| Feb 17    | Components / Route Components on App.js                                                    | Incomplete |
+| Feb 18    | Finish up Components / Event Handlers / Start CSS / Mobile Query                           | Incomplete |
 | Feb 19    | CSS / Bug Testing & Tweaking                                                               | Incomplete |
 | Feb 22    | Extra time for anything that pushes past the above timeline                                | Incomplete |
 
