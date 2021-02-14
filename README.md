@@ -79,6 +79,7 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
   - Form
 - Media Query for mobile screens (350px)
 - Filter submissions based on pre-set category options
+- Redirect to homepage once form is submitted
 
 #### PostMVP
 
@@ -89,28 +90,40 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example.
-
-| Day       | Deliverable                                                                                | Status     |
-| --------- | ------------------------------------------------------------------------------------------ | ---------- |
-| Feb 13-15 | Create Project Proposal / Wireframes / Component Heirarchy / Timelines / Airtable Setup    | Complete   |
-| Feb 16    | Project Proposal Approval / Pseudocode / (HTML, App.js, Index.js,Route) / Start Components | Incomplete |
-| Feb 17    | Components / Route Components on App.js                                                    | Incomplete |
-| Feb 18    | Finish up Components / Event Handlers / Start CSS / Mobile Query                           | Incomplete |
-| Feb 19    | CSS / Bug Testing & Tweaking                                                               | Incomplete |
-| Feb 22    | Extra time for anything that pushes past the above timeline                                | Incomplete |
+| Day       | Deliverable                                                                                     | Status     |
+| --------- | ----------------------------------------------------------------------------------------------- | ---------- |
+| Feb 13-15 | Create Project Proposal / Wireframes / Component Heirarchy / Timelines / Airtable Setup         | Complete   |
+| Feb 16    | Project Proposal Approval / Pseudocode / (HTML, App.js, Index.js,Route) / Start Components      | Incomplete |
+| Feb 17    | Components / Route Components on App. js / / Event Handlers                                     | Incomplete |
+| Feb 18    | Finish up Components and core functionality / Start CSS / Mobile Design                         | Incomplete |
+| Feb 19    | CSS / Bug Testing & Tweaking / Finish MVP                                                       | Incomplete |
+| Feb 22    | Extra time for anything that pushes past the above timeline / (and/or time permitting) Post-MVP | Incomplete |
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
+| Component                                                                                | Priority | Estimated Time | Time Invested | Actual Time |
+| ---------------------------------------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Nav component                                                                            |    H     |      1hr       |      n/a      |     n/a     |
+| Basic HTML or Header component (tbd)                                                     |    H     |     30 min     |      n/a      |     n/a     |
+| React set up                                                                             |    H     |      1hr       |      n/a      |     n/a     |
+| App.js set up                                                                            |    H     |     30 min     |      n/a      |     n/a     |
+| Axios call                                                                               |    H     |      1hr       |      n/a      |     n/a     |
+| Set up state                                                                             |    H     |      2hrs      |      n/a      |     n/a     |
+| Set up one component                                                                     |    H     |      3hrs      |      n/a      |     n/a     |
+| Render content on page                                                                   |    H     |      2hrs      |      n/a      |     n/a     |
+| Route content to category pages based on "category" selected on the form/in the Airtable |    H     |      2hrs      |      n/a      |     n/a     |
+| Set up form component                                                                    |    H     |      2hrs      |      n/a      |     n/a     |
+| Code route to homepage upon form submission                                              |    H     |      2hrs      |      n/a      |     n/a     |
+| Create the rest of the category component pages                                          |    H     |      3hrs      |      n/a      |     n/a     |
+| Basic CSS                                                                                |    H     |     1.5hrs     |      n/a      |     n/a     |
+| Testing and Tweaking                                                                     |    H     |      3hrs      |      n/a      |     n/a     |
+| Mobile Query and CSS                                                                     |    H     |      3hrs      |      n/a      |     n/a     |
+| CSS                                                                                      |    H     |      3hrs      |      n/a      |     n/a     |
+| Code ability to edit submissions by ID                                                   |    H     |      3hrs      |      n/a      |     n/a     |
 
-Time frames are also key in the development cycle. You have limited time to code all parts of your app. Your estimates can then be used to evalute possibilities based on time needed and the actual time you have before the app must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add an additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
-| Component        | Priority | Estimated Time | Time Invested | Actual Time |
-| ---------------- | :------: | :------------: | :-----------: | :---------: |
-| Adding Form      |    H     |      3hrs      |    3.5hrs     |   3.5hrs    |
-| Working with API |    H     |      3hrs      |    2.5hrs     |   2.5hrs    |
-| Total            |    H     |      6hrs      |     5hrs      |    5hrs     |
+|
+| Organize cateogy pages by "workout" | H | 3hrs | n/a | n/a |
+| Total | H | 6hrs | 5hrs | 5hrs |
 
 ## SWOT Analysis
 
