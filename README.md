@@ -82,7 +82,7 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 
 #### PostMVP
 
-- Profiles
+- Profiles for users
 - Edit Submissions
 - Categorize the category page by "workout". If the "workout" input equals another "workout" then group together
 - Click to expand the details on the page
@@ -91,15 +91,14 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 
 This schedule will be used to keep track of your progress throughout the week and align with our expectations. Here's an example.
 
-| Day        | Deliverable                                        | Status     |
-| ---------- | -------------------------------------------------- | ---------- |
-| July 10-12 | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete |
-| July 13    | Project Approval                                   | Incomplete |
-| July 13    | Core Application Structure (HTML, CSS, etc.)       | Incomplete |
-| July 14    | Pseudocode / actual code                           | Incomplete |
-| July 15    | Initial Clickable Model                            | Incomplete |
-| July 16    | MVP                                                | Incomplete |
-| July 17    | Presentations                                      | Incomplete |
+| Day    | Deliverable                                                | Status     |
+| ------ | ---------------------------------------------------------- | ---------- |
+| Feb 15 | Create Project Proposal / Wireframes / Component Heirarchy | Complete   |
+| Feb 16 | Project Proposal Approval                                  | Incomplete |
+| Feb 17 | Project Approval                                           | Incomplete |
+| Feb 18 | Core Application Structure (HTML, CSS, etc.)               | Incomplete |
+| Feb 19 | Pseudocode / actual code                                   | Incomplete |
+| Feb 22 | Initial Clickable Model                                    | Incomplete |
 
 ## Timeframes
 
