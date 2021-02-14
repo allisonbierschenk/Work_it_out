@@ -123,7 +123,7 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 
 |
 | Organize cateogy pages by "workout" | H | 3hrs | n/a | n/a |
-| Total | H | 6hrs | 5hrs | 5hrs |
+| Total | H | 33.5hrs | n/a | n/a |
 
 ## SWOT Analysis
 
