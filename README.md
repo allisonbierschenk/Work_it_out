@@ -63,15 +63,29 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 
 #### MVP
 
-- Homepage with buttons
+- Homepage with clickable buttons leading to category
+- Each category page will display stored data from state/submissions
 - Form for submitting workouts
+- Components :
+  - Homepage
+  - Header
+  - Footer
+  - Arms
+  - Legs
+  - Abs
+  - Back
+  - Cardio
+  - Recovery
+  - Form
+- Media Query for mobile screens (350px)
+- Filter submissions based on pre-set category options
 
 #### PostMVP
 
-_These are examples only. Replace with your own Post-MVP features._
-
-- Add second API
-- Use local storage to save user favorites
+- Profiles
+- Edit Submissions
+- Categorize the category page by "workout". If the "workout" input equals another "workout" then group together
+- Click to expand the details on the page
 
 ## Project Schedule
 
