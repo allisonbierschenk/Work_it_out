@@ -120,8 +120,9 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 | Mobile Query and CSS                                                                     |    H     |      3hrs      |      n/a      |     n/a     |
 | CSS                                                                                      |    H     |      3hrs      |      n/a      |     n/a     |
 | Code ability to edit submissions by ID                                                   |    H     |      3hrs      |      n/a      |     n/a     |
-| Organize cateogy pages by "workout"                                                      |    H     |      3hrs      |      n/a      |     n/a     |
-| Total                                                                                    |    H     |      6hrs      |     5hrs      |    5hrs     |
+
+| Organize cateogy pages by "workout" | H | 3hrs | n/a | n/a |
+| Total | H | 6hrs | 5hrs | 5hrs |
 
 ## SWOT Analysis
 
