@@ -121,14 +121,33 @@ Show us a snippet of JSON returned by your Airtable (you can find it under the A
 | CSS                                                                                      |    H     |      3hrs      |      n/a      |     n/a     |
 | Code ability to edit submissions by ID                                                   |    H     |      3hrs      |      n/a      |     n/a     |
 | Organize cateogy pages by "workout"                                                      |    H     |      3hrs      |      n/a      |     n/a     |
-| Total                                                                                    |    H     |    33.5hrs     |      n/a      |     n/a     |
+| Total                                                                                    |    H     |    36.5hrs     |      n/a      |     n/a     |
 
 ## SWOT Analysis
 
 ### Strengths:
 
+I know what I want to do functionally and have a high expectation for functionality and style. I have a basic understanding of how to apply what I have learned about react functional components.
+
+I think I will be most successful in learning React and Components by choosing to use functional componenets instead of class components.
+
 ### Weaknesses:
+
+I can't remember which repo wrnt over editing forms. I am not sure what "toggleFetch" does
+[Nav bar reference and looping through specific indicies in array](https://git.generalassemb.ly/sei-nyc-sapphire/train-router/blob/master/src/Station.jsx)
+[.map](https://git.generalassemb.ly/sei-nyc-sapphire/robotanist/tree/main/src)
+[handleSubmit](https://git.generalassemb.ly/sei-nyc-sapphire/pokedex-lab/blob/solution/pokedex-starter/src/App.js)
+[Artist/card lab](https://git.generalassemb.ly/sei-nyc-sapphire/react-and-events/blob/solution/src/App.js)
+[Ternary](https://git.generalassemb.ly/sei-nyc-sapphire/components-functions-to-classes/blob/master/src/App.js)
+[React Router Intro/ Routes](https://git.generalassemb.ly/sei-nyc-sapphire/react-router-intro/blob/solution/client/src/App.js)
+[Post and delete](https://git.generalassemb.ly/sei-nyc-sapphire/post-and-delete/blob/main/src/App.js)
+[Capturing form](https://git.generalassemb.ly/sei-nyc-sapphire/react-state/blob/master/2.%20capturing-form-input.md#10-minute-practice)
+[Conditional rendering](https://git.generalassemb.ly/sei-nyc-sapphire/audubon-website)
 
 ### Opportunities:
 
+I look forward to being on my own to apply what I have learned and create a useful tool for my daily life using the skills I have learned over the last 2 weeks. I learn the best by doing my own work and struggling with code I don't quite understand.
+
 ### Threats:
+
+I worry I will run out of time, I may have bit off more than I can chew.
