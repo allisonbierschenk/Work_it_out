@@ -135,13 +135,21 @@ I think I will be most successful in learning React and Components by choosing t
 
 I can't remember which repo wrnt over editing forms. I am not sure what "toggleFetch" does
 [Nav bar reference and looping through specific indicies in array](https://git.generalassemb.ly/sei-nyc-sapphire/train-router/blob/master/src/Station.jsx)
+<br>
 [.map](https://git.generalassemb.ly/sei-nyc-sapphire/robotanist/tree/main/src)
+<br>
 [handleSubmit](https://git.generalassemb.ly/sei-nyc-sapphire/pokedex-lab/blob/solution/pokedex-starter/src/App.js)
+<br>
 [Artist/card lab](https://git.generalassemb.ly/sei-nyc-sapphire/react-and-events/blob/solution/src/App.js)
+<br>
 [Ternary](https://git.generalassemb.ly/sei-nyc-sapphire/components-functions-to-classes/blob/master/src/App.js)
+<br>
 [React Router Intro/ Routes](https://git.generalassemb.ly/sei-nyc-sapphire/react-router-intro/blob/solution/client/src/App.js)
+<br>
 [Post and delete](https://git.generalassemb.ly/sei-nyc-sapphire/post-and-delete/blob/main/src/App.js)
+<br>
 [Capturing form](https://git.generalassemb.ly/sei-nyc-sapphire/react-state/blob/master/2.%20capturing-form-input.md#10-minute-practice)
+<br>
 [Conditional rendering](https://git.generalassemb.ly/sei-nyc-sapphire/audubon-website)
 
 ### Opportunities:
