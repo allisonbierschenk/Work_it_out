@@ -133,7 +133,8 @@ I think I will be most successful in learning React and Components by choosing t
 
 ### Weaknesses:
 
-I can't remember which repo wrnt over editing forms. I am not sure what "toggleFetch" does
+I can't remember which repo went over clearing forms...? I am not sure what "toggleFetch" does
+<br>
 [Nav bar reference and looping through specific indicies in array](https://git.generalassemb.ly/sei-nyc-sapphire/train-router/blob/master/src/Station.jsx)
 <br>
 [.map](https://git.generalassemb.ly/sei-nyc-sapphire/robotanist/tree/main/src)
