@@ -22,40 +22,47 @@ You should be able to edit a post (postMVP)
 
 ## API and Data Sample
 
-Show us a snippet of JSON returned by your Airtable (you can find it under the API documentation) so we know you can access it and get the info you need. This **must** be properly formatted. An example is below:
-
 ```json
+EXAMPLE RESPONSE
 {
-  "records": [
-    {
-      "id": "recONRzIUTuZ5lXaF",
-      "fields": {
-        "author": "Liz Yrineo",
-        "setup": "Why did the tomato turn red?",
-        "punchline": "Because it saw the salad dressing!"
-      },
-      "createdTime": "2020-11-30T16:03:09.000Z"
-    },
-    {
-      "id": "rec3oYZ5Tp0AIDsKe",
-      "fields": {
-        "author": "Rachel Moskowitz",
-        "setup": "What did the green grape say to the red grape?",
-        "punchline": "Breathe, idiot, breathe!"
-      },
-      "createdTime": "2020-11-30T16:03:09.000Z"
-    },
-    {
-      "id": "recA34tOaoE1IVeC1",
-      "fields": {
-        "author": "Gary Grant",
-        "setup": "How do you make holy water?",
-        "punchline": "You boil the hell out of it!"
-      },
-      "createdTime": "2020-11-30T16:03:09.000Z"
-    }
-  ],
-  "offset": "recA34tOaoE1IVeC1"
+    "records": [
+        {
+            "id": "recHZ2oZGwhxXSnnB",
+            "fields": {
+                "weight": "10lbs",
+                "category": "legs",
+                "workout": "step-ups",
+                "reps": 10,
+                "sets": 3,
+                "date": "2021-01-02"
+            },
+            "createdTime": "2021-02-13T17:24:52.000Z"
+        },
+        {
+            "id": "recYFpiJi8GXYEUR8",
+            "fields": {
+                "weight": "n/a",
+                "category": "cardio",
+                "workout": "sprints",
+                "time": 1800,
+                "sets": 15,
+                "date": "2021-01-02"
+            },
+            "createdTime": "2021-02-13T17:24:52.000Z"
+        },
+        {
+            "id": "recph1rxbQIi4LFU3",
+            "fields": {
+                "category": "arms",
+                "workout": "push-ups",
+                "reps": 10,
+                "sets": 3,
+                "date": "2021-01-02"
+            },
+            "createdTime": "2021-02-13T17:24:52.000Z"
+        }
+    ],
+    "offset": "recph1rxbQIi4LFU3"
 }
 ```
 
