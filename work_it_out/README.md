@@ -14,11 +14,11 @@ Previous submissions will be able to be edited (postMVP)
 
 The app will be styled by CSS.
 
+## Component Heirarchy
+
+![img](https://i.imgur.com/HxzRoZU.png)
+
 ## Wireframes
-
-![img](https://i.imgur.com/qovCsHr.png)
-
-## Component Hierarchy
 
 Homepage Desktop Wireframe
 <br>
