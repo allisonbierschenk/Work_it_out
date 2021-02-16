@@ -20,7 +20,6 @@ The app will be styled by CSS.
 
 ## Component Hierarchy
 
-[Component Heirarchy](https://app.diagrams.net/#G162FR5rNiqhsmso5JTEIHvFKWwatvjv0J)
 Homepage Desktop Wireframe
 <br>
 ![img](https://i.imgur.com/EAMikez.png)
