@@ -16,12 +16,28 @@ The app will be styled by CSS.
 
 ## Wireframes
 
-[Wireframes](https://app.diagrams.net/#G10uECuNSzUqB7gdFfd7ecsreq3le71hmP)
 ![img](https://i.imgur.com/qovCsHr.png)
 
 ## Component Hierarchy
 
 [Component Heirarchy](https://app.diagrams.net/#G162FR5rNiqhsmso5JTEIHvFKWwatvjv0J)
+Homepage Desktop Wireframe
+![img](https://i.imgur.com/EAMikez.png)
+
+Homepage Mobile Wireframe
+![img](https://i.imgur.com/KI89mUf.png)
+
+Category Page Desktop Wireframe
+![img](https://i.imgur.com/mCCejC7.png)
+
+Category Page Mobile Wireframe
+![img](https://i.imgur.com/IsyjrNV.png)
+
+Form Page Desktop Wireframe
+![img](https://i.imgur.com/D4kkTz3.png)
+
+Form Page Mobile Wireframe
+![img](https://i.imgur.com/iRTSPWq.png)
 
 ## API and Data Sample
 
