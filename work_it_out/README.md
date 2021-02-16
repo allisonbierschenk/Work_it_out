@@ -20,21 +20,27 @@ The app will be styled by CSS.
 
 ## Component Hierarchy
 
+Homepage Desktop Wireframe
 <br>
 ![img](https://i.imgur.com/EAMikez.png)
 
+Homepage Mobile Wireframe
 <br>
 ![img](https://i.imgur.com/KI89mUf.png)
 
+Category Page Desktop Wireframe
 <br>
 ![img](https://i.imgur.com/mCCejC7.png)
 
+Category Page Mobile Wireframe
 <br>
 ![img](https://i.imgur.com/IsyjrNV.png)
 
+Form Page Desktop Wireframe
 <br>
 ![img](https://i.imgur.com/D4kkTz3.png)
 
+Form Page Mobile Wireframe
 <br>
 ![img](https://i.imgur.com/iRTSPWq.png)
 
