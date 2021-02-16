@@ -17,7 +17,7 @@ The app will be styled by CSS.
 ## Wireframes
 
 [Wireframes](https://app.diagrams.net/#G10uECuNSzUqB7gdFfd7ecsreq3le71hmP)
-![imageAlt](https://imgur.com/qovCsHr)
+![img](https://i.imgur.com/qovCsHr.png)
 
 ## Component Hierarchy
 
