@@ -4,17 +4,20 @@
 
 ## Project Description
 
-I plan to create an App that allows me track my workout progress.
+I plan to create a React App that allows me track my workout progress.
 
-There will be a "homepage" where you click on a category which has stored all of the previously logged data. The next page will have each category option and below the category will be all of the logged data rendering from the API submissions.
+There will be a "homepage" where you click on a category page. The category page will have all of the previously logged progress. The category page will show the date, exercise performed, time, reps, sets, and weight filled out as needed. The only required form field would be the date and exercise. There will be 9-10 components.
 
 Submissions will come from the form. The form will include a category dropdown so that the submission is stored in the appropriate category.
 
-You should be able to edit a post (postMVP)
+Previous submissions will be able to be edited (postMVP)
+
+The app will be styled by CSS.
 
 ## Wireframes
 
 [Wireframes](https://app.diagrams.net/#G10uECuNSzUqB7gdFfd7ecsreq3le71hmP)
+![imageAlt](https://imgur.com/qovCsHr)
 
 ## Component Hierarchy
 
@@ -23,7 +26,7 @@ You should be able to edit a post (postMVP)
 ## API and Data Sample
 
 ```json
-EXAMPLE RESPONSE
+RESPONSE
 {
     "records": [
         {
@@ -93,7 +96,7 @@ EXAMPLE RESPONSE
 - Profiles for users
 - Edit Submissions
 - Categorize the category page by "workout". If the "workout" input equals another "workout" then group together
-- Click to expand the details on the page
+- Click to expand the details on the page on mobile
 
 ## Project Schedule
 
