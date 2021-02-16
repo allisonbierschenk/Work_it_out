@@ -1,0 +1,45 @@
+.body {
+  text-align: center;
+}
+
+.nav {
+  /* display: inline-flex; */
+
+  justify-content: center;
+}
+
+a {
+  padding: 5px;
+}
+
+.homepage-buttons {
+  display: grid;
+  grid-template-areas:
+    "button button"
+    "button button"
+    "button button";
+}
+
+.homepage-left-buttons {
+  display: grid;
+  grid-template-areas:
+    "button"
+    "button"
+    "button";
+  margin: 5px 5px 5px 200px;
+}
+
+.homepage-right-buttons {
+  display: grid;
+  grid-template-areas:
+    "button"
+    "button"
+    "button";
+  margin: 5px 200px 5px 5px;
+}
+
+button {
+  height: 100px;
+  width: 400px;
+  font-size: 28px;
+}
