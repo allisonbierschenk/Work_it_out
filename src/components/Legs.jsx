@@ -1,19 +1,31 @@
-import { baseURL, config } from "../services";
+// import { baseURL, config } from "../services";
 import { useState, useEffect } from "react";
-import axios from "axios";
+// import axios from "axios";
 
 function Legs(props) {
-  const workout = props.workouts.map((workout) => workout.fields);
-  console.log("workout const", workout);
-  const workoutCategory = workout.map(
-    (workoutCategory) => workoutCategory.category
-  );
-  console.log(workoutCategory[1]);
+  const [workouts, setWorkouts] = useState([]);
+
+  useEffect(() => {
+    if (props.workouts) {
+      const legCategory = props.workouts.filter((legs) => {
+        return legs.fields.category.includes("legs");
+      });
+      setWorkouts(legCategory);
+    }
+  }, [props.workouts]);
 
   return (
     <div>
       <h2>Workouts</h2>
-      <h3>{workoutCategory[0] === "legs" ? <p>{workout}</p> : null}</h3>
+      <div>
+        {workouts.map((legObject, index) => (
+          <div key={index}>
+            <p>{legObject.fields.workout}</p> <p>{legObject.fields.date}</p>
+            <p>{legObject.fields.time}</p> <p>{legObject.fields.reps}</p>
+            <p>{legObject.fields.sets}</p> <p>{legObject.fields.weight}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

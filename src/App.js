@@ -2,15 +2,16 @@ import { baseURL, config } from "./services";
 import { Link, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Nav from "./components/Nav";
-import Home from "./components/Home";
 import Footer from "./components/Footer";
+import Form from "./components/Form";
+import Home from "./components/Home";
 import Legs from "./components/Legs";
+import Nav from "./components/Nav";
 import "./App.css";
 
 function App() {
   const [workouts, setWorkouts] = useState([]);
-  console.log(workouts);
+  const [toggleFetch, setToggleFetch] = useState(false);
 
   useEffect(() => {
     const fetchWorkouts = async () => {
@@ -18,7 +19,7 @@ function App() {
       setWorkouts(resp.data.records);
     };
     fetchWorkouts();
-  }, []);
+  }, [toggleFetch]);
 
   return (
     <div className="body">
@@ -26,6 +27,9 @@ function App() {
       <div className="home">
         <Route exact path="/">
           <Home workouts={workouts} />
+        </Route>
+        <Route path="/form">
+          <Form setToggleFetch={setToggleFetch} />
         </Route>
         <Route path="/legs">
           <Legs workouts={workouts} />
