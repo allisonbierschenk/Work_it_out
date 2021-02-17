@@ -4,7 +4,7 @@ import { baseURL, config } from "../services";
 import axios from "axios";
 import Legs from "./Legs";
 
-function Home(props) {
+function Home() {
   return (
     //I need to link the buttons to the arms, abs, cardio etc pages.
     <div>
@@ -14,11 +14,6 @@ function Home(props) {
       </h2>
       <div className="homepage-buttons">
         <div className="homepage-left-buttons">
-          {/* <Route path="/legs">
-            <Legs>
-              <button className="button">Legs</button>
-            </Legs>
-          </Route> */}
           <Link to="/legs">
             <button className="button">Legs</button>
           </Link>

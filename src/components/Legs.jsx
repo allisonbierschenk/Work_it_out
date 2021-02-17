@@ -3,19 +3,17 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 function Legs(props) {
-  const [workouts, setWorkouts] = useState([]);
-
-  useEffect(() => {
-    const fetchWorkouts = async () => {
-      const resp = await axios.get(baseURL, config);
-      setWorkouts(resp.data.records);
-    };
-    fetchWorkouts();
-  }, []);
+  const workout = props.workouts.map((workout) => workout.fields);
+  console.log("workout const", workout);
+  const workoutCategory = workout.map(
+    (workoutCategory) => workoutCategory.category
+  );
+  console.log(workoutCategory[1]);
 
   return (
     <div>
-      <h3></h3>
+      <h2>Workouts</h2>
+      <h3>{workoutCategory[0] === "legs" ? <p>{workout}</p> : null}</h3>
     </div>
   );
 }
