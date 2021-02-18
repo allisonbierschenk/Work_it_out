@@ -21,7 +21,7 @@ function Recovery(props) {
   return (
     <div>
       <h2>Logged Leg Workouts</h2>
-      <div className="logged-workout-dispay">
+      <div className="logged-workout-display">
         {workouts.map((recoveryObject, index) => (
           <div key={index} className="logged-workout">
             <Link
