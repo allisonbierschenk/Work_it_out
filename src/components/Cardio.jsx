@@ -2,15 +2,15 @@ import { baseURL, config } from "../services";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-function Back(props) {
+function Cardio(props) {
   const [workouts, setWorkouts] = useState([]);
 
   useEffect(() => {
     if (props.workouts) {
-      const backCategory = props.workouts.filter((back) => {
-        return back.fields.category.includes("back");
+      const cardioCategory = props.workouts.filter((cardio) => {
+        return cardio.fields.category.includes("cardio");
       });
-      setWorkouts(backCategory);
+      setWorkouts(cardioCategory);
     }
   }, [props.workouts]);
 
@@ -22,28 +22,28 @@ function Back(props) {
     <div>
       <h2>Logged Leg Workouts</h2>
       <div className="logged-workout-dispay">
-        {workouts.map((backObject, index) => (
+        {workouts.map((cardioObject, index) => (
           <div key={index} className="logged-workout">
             <Link
-              to={`/edit/${backObject.id}`}
+              to={`/edit/${cardioObject.id}`}
               className="excersize-title-link"
             >
               <div className="exercise-title">
                 <span className="logged-workouts-inline-styling">
                   Workout:{" "}
                 </span>
-                {backObject.fields.workout}
+                {cardioObject.fields.workout}
               </div>
             </Link>
-            <p>Date: {backObject.fields.date}</p>
+            <p>Date: {cardioObject.fields.date}</p>
             <div>
-              {`${backObject.fields.time}` ? (
-                <p>Time: {backObject.fields.time}</p>
+              {`${cardioObject.fields.time}` ? (
+                <p>Time: {cardioObject.fields.time}</p>
               ) : null}
             </div>
-            <p> Reps completed: {backObject.fields.reps}</p>
-            <p>Sets completed: {backObject.fields.sets}</p>
-            <p>Weight used: {backObject.fields.weight}</p>
+            <p> Reps completed: {cardioObject.fields.reps}</p>
+            <p>Sets completed: {cardioObject.fields.sets}</p>
+            <p>Weight used: {cardioObject.fields.weight}</p>
           </div>
         ))}
       </div>
@@ -51,4 +51,4 @@ function Back(props) {
   );
 }
 
-export default Back;
+export default Cardio;

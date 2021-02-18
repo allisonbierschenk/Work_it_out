@@ -14,6 +14,10 @@ function Arms(props) {
     }
   }, [props.workouts]);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <div>
       <h2>Logged Leg Workouts</h2>

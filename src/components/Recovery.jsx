@@ -2,15 +2,15 @@ import { baseURL, config } from "../services";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-function Back(props) {
+function Recovery(props) {
   const [workouts, setWorkouts] = useState([]);
 
   useEffect(() => {
     if (props.workouts) {
-      const backCategory = props.workouts.filter((back) => {
-        return back.fields.category.includes("back");
+      const recoveryCategory = props.workouts.filter((recovery) => {
+        return recovery.fields.category.includes("recovery");
       });
-      setWorkouts(backCategory);
+      setWorkouts(recoveryCategory);
     }
   }, [props.workouts]);
 
@@ -22,28 +22,28 @@ function Back(props) {
     <div>
       <h2>Logged Leg Workouts</h2>
       <div className="logged-workout-dispay">
-        {workouts.map((backObject, index) => (
+        {workouts.map((recoveryObject, index) => (
           <div key={index} className="logged-workout">
             <Link
-              to={`/edit/${backObject.id}`}
+              to={`/edit/${recoveryObject.id}`}
               className="excersize-title-link"
             >
               <div className="exercise-title">
                 <span className="logged-workouts-inline-styling">
                   Workout:{" "}
                 </span>
-                {backObject.fields.workout}
+                {recoveryObject.fields.workout}
               </div>
             </Link>
-            <p>Date: {backObject.fields.date}</p>
+            <p>Date: {recoveryObject.fields.date}</p>
             <div>
-              {`${backObject.fields.time}` ? (
-                <p>Time: {backObject.fields.time}</p>
+              {`${recoveryObject.fields.time}` ? (
+                <p>Time: {recoveryObject.fields.time}</p>
               ) : null}
             </div>
-            <p> Reps completed: {backObject.fields.reps}</p>
-            <p>Sets completed: {backObject.fields.sets}</p>
-            <p>Weight used: {backObject.fields.weight}</p>
+            <p> Reps completed: {recoveryObject.fields.reps}</p>
+            <p>Sets completed: {recoveryObject.fields.sets}</p>
+            <p>Weight used: {recoveryObject.fields.weight}</p>
           </div>
         ))}
       </div>
@@ -51,4 +51,4 @@ function Back(props) {
   );
 }
 
-export default Back;
+export default Recovery;

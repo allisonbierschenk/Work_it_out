@@ -4,11 +4,13 @@ import { useEffect, useState } from "react";
 import Abs from "./components/Abs";
 import Arms from "./components/Arms";
 import Back from "./components/Back";
+import Cardio from "./components/Cardio";
 import Footer from "./components/Footer";
 import Form from "./components/Form";
 import Home from "./components/Home";
 import Legs from "./components/Legs";
 import Nav from "./components/Nav";
+import Recovery from "./components/Recovery";
 import axios from "axios";
 import "./App.css";
 
@@ -45,16 +47,16 @@ function App() {
       <Route path="/arms">
         <Arms workouts={workouts} />
       </Route>
-      {/* <Route path="/cardio">
-        <Cardio />
-      </Route> */}
+      <Route path="/cardio">
+        <Cardio workouts={workouts} />
+      </Route>
       <Route path="/back">
         <Back workouts={workouts} />
       </Route>
-      {/* <Route path="/recovery">
-        <Recovery />
-      </Route> */}
-      <div className="footer">
+      <Route path="/recovery">
+        <Recovery workouts={workouts} />
+      </Route>
+      <div>
         <Footer />
       </div>
     </div>

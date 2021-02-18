@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import { Route } from "react-router-dom";
-import { baseURL, config } from "../services";
-import axios from "axios";
-import Legs from "./Legs";
+import { useEffect } from "react";
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     //I need to link the buttons to the arms, abs, cardio etc pages.
     <div>
