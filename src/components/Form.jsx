@@ -1,5 +1,5 @@
 import { baseURL, config } from "../services";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useHistory, useParams } from "react-router-dom";
 import axios from "axios";
 
@@ -14,9 +14,25 @@ function Form(props) {
   const history = useHistory();
   const params = useParams();
 
+  useEffect(() => {
+    if (props.workouts.length > 0 && params.id) {
+      const foundWorkout = props.workouts.find((work) => params.id === work.id);
+      if (foundWorkout) {
+        setCategory(foundWorkout.fields.category);
+        setDate(foundWorkout.fields.date);
+        setReps(foundWorkout.fields.reps);
+        setSets(foundWorkout.fields.sets);
+        setWeight(foundWorkout.fields.weight);
+        setWorkout(foundWorkout.fields.workout);
+        setTime(foundWorkout.fields.time);
+      }
+    }
+    // console.log("test", props.workouts);
+  }, [props.workouts, params.id]);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const newWorkout = {
+    const fields = {
       category,
       workout,
       date,
@@ -27,16 +43,16 @@ function Form(props) {
     };
     if (params.id) {
       const submissionURL = `${baseURL}/${params.id}`;
-      await axios.put(submissionURL, { newWorkout }, config);
+      await axios.put(submissionURL, { fields }, config);
     } else {
-      await axios.post(baseURL, { newWorkout }, config);
+      await axios.post(baseURL, { fields }, config);
     }
     props.setToggleFetch((curr) => !curr);
     history.push("/");
   };
 
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="category: legs, abs, back, arms, cardio, recovery"
@@ -79,7 +95,7 @@ function Form(props) {
         value={weight}
         onChange={(e) => setWeight(e.target.value)}
       ></input>
-      <button className="form-button" type="submit" onClick={handleSubmit}>
+      <button className="form-button" type="submit" onSubmit={handleSubmit}>
         Log
       </button>
     </form>

@@ -2,15 +2,15 @@ import { baseURL, config } from "../services";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-function Legs(props) {
+function Arms(props) {
   const [workouts, setWorkouts] = useState([]);
 
   useEffect(() => {
     if (props.workouts) {
-      const legCategory = props.workouts.filter((legs) => {
-        return legs.fields.category.includes("legs");
+      const armCategory = props.workouts.filter((arms) => {
+        return arms.fields.category.includes("arms");
       });
-      setWorkouts(legCategory);
+      setWorkouts(armCategory);
     }
   }, [props.workouts]);
 
@@ -18,25 +18,25 @@ function Legs(props) {
     <div>
       <h2>Logged Leg Workouts</h2>
       <div className="logged-workout-dispay">
-        {workouts.map((legObject, index) => (
+        {workouts.map((armObject, index) => (
           <div key={index} className="logged-workout">
-            <Link to={`/edit/${legObject.id}`} className="excersize-title-link">
+            <Link to={`/edit/${armObject.id}`} className="excersize-title-link">
               <div className="exercise-title">
                 <span className="logged-workouts-inline-styling">
                   Workout:{" "}
                 </span>
-                {legObject.fields.workout}
+                {armObject.fields.workout}
               </div>
             </Link>
-            <p>Date: {legObject.fields.date}</p>
+            <p>Date: {armObject.fields.date}</p>
             <div>
-              {`${legObject.fields.time}` ? (
-                <p>Time: {legObject.fields.time}</p>
+              {`${armObject.fields.time}` ? (
+                <p>Time: {armObject.fields.time}</p>
               ) : null}
             </div>
-            <p> Reps completed: {legObject.fields.reps}</p>
-            <p>Sets completed: {legObject.fields.sets}</p>
-            <p>Weight used: {legObject.fields.weight}</p>
+            <p> Reps completed: {armObject.fields.reps}</p>
+            <p>Sets completed: {armObject.fields.sets}</p>
+            <p>Weight used: {armObject.fields.weight}</p>
             {/* <Link to={`/edit/${legObject.id}`}>
               <button>Edit</button>
             </Link> */}
@@ -47,4 +47,4 @@ function Legs(props) {
   );
 }
 
-export default Legs;
+export default Arms;

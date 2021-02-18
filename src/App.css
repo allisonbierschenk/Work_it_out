@@ -48,21 +48,30 @@ button {
   border: 1px solid black;
   border-radius: 20px;
   margin: 5px 5px 5px 200px;
-  height: 220px;
+  height: 250px;
   width: 200px;
   text-align: left;
   padding: 5px;
 }
 
 .logged-workout-display {
-  display: grid;
+  display: table-row;
+  /* display: grid;
   grid-template-areas:
     "logged-workout logged-workout logged-workout"
-    "logged-workout logged-workout logged-workout";
+    "logged-workout logged-workout logged-workout"; */
+}
+.logged-workouts-inline-styling {
+  font-weight: bold;
+  color: aqua;
 }
 
 .exercise-title {
   border-bottom: 1px solid black;
+}
+.excersize-title-link {
+  text-decoration: none;
+  padding: none;
 }
 
 form {
