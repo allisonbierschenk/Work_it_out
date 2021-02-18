@@ -1,5 +1,5 @@
 import { baseURL, config } from "./services";
-import { Link, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import Footer from "./components/Footer";
@@ -24,32 +24,30 @@ function App() {
   return (
     <div className="body">
       <Nav />
-      <div className="home">
-        <Route exact path="/">
-          <Home workouts={workouts} />
-        </Route>
-        <Route path="/form">
-          <Form setToggleFetch={setToggleFetch} />
-        </Route>
-        <Route path="/legs">
-          <Legs workouts={workouts} />
-        </Route>
-        {/* <Route path="/abs">
-          <Abs />
-        </Route>
-        <Route path="/arms">
-          <Arms />
-        </Route>
-        <Route path="/cardio">
-          <Cardio />
-        </Route>
-        <Route path="/back">
-          <Back />
-        </Route>
-        <Route path="/recovery">
-          <Recovery />
-        </Route> */}
-      </div>
+      <Route exact path="/">
+        <Home workouts={workouts} />
+      </Route>
+      <Route path="/form">
+        <Form workouts={workouts} setToggleFetch={setToggleFetch} />
+      </Route>
+      <Route path="/legs">
+        <Legs workouts={workouts} />
+      </Route>
+      {/* <Route path="/abs">
+        <Abs />
+      </Route>
+      <Route path="/arms">
+        <Arms />
+      </Route>
+      <Route path="/cardio">
+        <Cardio />
+      </Route>
+      <Route path="/back">
+        <Back />
+      </Route>
+      <Route path="/recovery">
+        <Recovery />
+      </Route> */}
       <div className="footer">
         <Footer />
       </div>

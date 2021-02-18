@@ -1,5 +1,6 @@
 import { baseURL, config } from "../services";
 import { useState } from "react";
+import { useHistory, useParams } from "react-router-dom";
 import axios from "axios";
 
 function Form(props) {
@@ -10,6 +11,8 @@ function Form(props) {
   const [weight, setWeight] = useState("");
   const [workout, setWorkout] = useState("");
   const [time, setTime] = useState("");
+  const history = useHistory();
+  const params = useParams();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -22,8 +25,14 @@ function Form(props) {
       sets,
       weight,
     };
-    await axios.post(baseURL, newWorkout);
+    if (params.id) {
+      const submissionURL = `${baseURL}/${params.id}`;
+      await axios.put(submissionURL, { newWorkout }, config);
+    } else {
+      await axios.post(baseURL, { newWorkout }, config);
+    }
     props.setToggleFetch((curr) => !curr);
+    history.push("/");
   };
 
   return (
@@ -70,7 +79,7 @@ function Form(props) {
         value={weight}
         onChange={(e) => setWeight(e.target.value)}
       ></input>
-      <button type="submit" onClick={handleSubmit}>
+      <button className="form-button" type="submit" onClick={handleSubmit}>
         Log
       </button>
     </form>

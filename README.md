@@ -136,19 +136,19 @@ RESPONSE
 
 | Component                                                                                | Priority | Estimated Time | Time Invested | Actual Time |
 | ---------------------------------------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Nav component                                                                            |    H     |      1hr       |      n/a      |     n/a     |
-| Basic HTML or Header component (tbd)                                                     |    H     |     30 min     |      n/a      |     n/a     |
-| React set up                                                                             |    H     |      1hr       |      n/a      |     n/a     |
-| App.js set up                                                                            |    H     |     30 min     |      n/a      |     n/a     |
-| Axios call                                                                               |    H     |      1hr       |      n/a      |     n/a     |
-| Set up state                                                                             |    H     |      2hrs      |      n/a      |     n/a     |
-| Set up one component                                                                     |    H     |      3hrs      |      n/a      |     n/a     |
-| Render content on page                                                                   |    H     |      2hrs      |      n/a      |     n/a     |
-| Route content to category pages based on "category" selected on the form/in the Airtable |    H     |      2hrs      |      n/a      |     n/a     |
-| Set up form component                                                                    |    H     |      2hrs      |      n/a      |     n/a     |
-| Code route to homepage upon form submission                                              |    H     |      2hrs      |      n/a      |     n/a     |
+| Nav component                                                                            |    H     |      1hr       |      1hr      |     n/a     |
+| Basic HTML or Header component (tbd)                                                     |    H     |     30 min     |    30 min     |     n/a     |
+| React set up                                                                             |    H     |      1hr       |    30 min     |     n/a     |
+| App.js set up                                                                            |    H     |     30 min     |     2hrs      |     n/a     |
+| Axios call                                                                               |    H     |      1hr       |    30 min     |     n/a     |
+| Set up state                                                                             |    H     |      2hrs      |      1hr      |     n/a     |
+| Set up one component                                                                     |    H     |      3hrs      |     3hrs      |     n/a     |
+| Render content on page                                                                   |    H     |      2hrs      |     2hrs      |     n/a     |
+| Route content to category pages based on "category" selected on the form/in the Airtable |    H     |      2hrs      |    30 min     |     n/a     |
+| Set up form component                                                                    |    H     |      2hrs      |     3hrs      |     n/a     |
+| Code route to homepage upon form submission                                              |    H     |      2hrs      |    10 min     |     n/a     |
 | Create the rest of the category component pages                                          |    H     |      3hrs      |      n/a      |     n/a     |
-| Basic CSS                                                                                |    H     |     1.5hrs     |      n/a      |     n/a     |
+| Basic CSS                                                                                |    H     |     1.5hrs     |     1 hr      |     n/a     |
 | Testing and Tweaking                                                                     |    H     |      3hrs      |      n/a      |     n/a     |
 | Mobile Query and CSS                                                                     |    H     |      3hrs      |      n/a      |     n/a     |
 | CSS                                                                                      |    H     |      3hrs      |      n/a      |     n/a     |
