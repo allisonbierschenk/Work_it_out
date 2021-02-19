@@ -1,4 +1,4 @@
-import { baseURL, config } from "../services";
+import { config, queryURL } from "../services";
 import { useState, useEffect } from "react";
 import { useHistory, useParams } from "react-router-dom";
 import axios from "axios";
@@ -46,10 +46,10 @@ function Form(props) {
       weight,
     };
     if (params.id) {
-      const submissionURL = `${baseURL}/${params.id}`;
+      const submissionURL = `${queryURL}/${params.id}`;
       await axios.put(submissionURL, { fields }, config);
     } else {
-      await axios.post(baseURL, { fields }, config);
+      await axios.post(queryURL, { fields }, config);
     }
     props.setToggleFetch((curr) => !curr);
     history.push("/");
@@ -72,13 +72,6 @@ function Form(props) {
           <option value="cardio">Cardio</option>
           <option value="recovery">Recovery</option>
         </select>
-        {/* <input
-        className="form"
-        type="text"
-        placeholder="category: legs, abs, back, arms, cardio, recovery"
-        value={category}
-        onChange={(e) => setCategory(e.target.value)}
-      ></input> */}
         <input
           className="form"
           type="text"
