@@ -6,7 +6,7 @@
 .nav {
   justify-content: center;
   padding: 5px;
-  height: 30px;
+  height: 50px;
 }
 
 a {
@@ -48,15 +48,18 @@ button {
 .logged-workout {
   border: 1px solid black;
   border-radius: 20px;
-  /* margin: 5px 5px 5px 200px; */
   height: 250px;
   width: 200px;
   text-align: left;
   padding: 5px;
+  margin: 0px 3px 6px 3px;
 }
 
 .logged-workout-display {
   display: flex;
+  flex-wrap: wrap;
+  margin: 10px 100px;
+  justify-content: center;
 }
 .logged-workouts-inline-styling {
   font-weight: bold;
@@ -117,7 +120,7 @@ form {
 }
 
 .link-header {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 nav {
@@ -127,7 +130,7 @@ nav {
 select,
 option {
   font-family: "Ubuntu", sans-serif;
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
 
 /* ::placeholder {
