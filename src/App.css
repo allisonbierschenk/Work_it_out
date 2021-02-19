@@ -15,6 +15,16 @@ a {
   margin: 0px;
 }
 
+h1 {
+  font-size: 46px;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: lighter;
+}
+
 .full-page-home {
   /* https://css-tricks.com/perfect-full-page-background-image/ */
   background: url("https://i.imgur.com/2kZdWww.jpg?2") no-repeat center center
@@ -26,6 +36,7 @@ a {
   background-repeat: no-repeat;
   padding-bottom: 200px;
   padding-top: 20px;
+  min-height: 1000px;
 }
 .full-page-home-overlay {
   /* https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/ */
@@ -42,6 +53,209 @@ a {
   background-repeat: no-repeat;
   padding-bottom: 200px;
   padding-top: 20px;
+  min-height: 1000px;
+}
+
+.full-page-legs {
+  background: url("https://i.imgur.com/2kZdWww.jpg?2") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  padding-top: 20px;
+  min-height: 1000px;
+}
+.full-page-legs-overlay {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(205, 211, 235, 0),
+      rgba(2, 16, 48, 0.982)
+    ),
+    url("https://i.imgur.com/2kZdWww.jpg?2");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  padding-top: 20px;
+  min-height: 1000px;
+}
+
+.full-page-arms {
+  background: url("https://i.imgur.com/2kZdWww.jpg?2") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  padding-top: 20px;
+  min-height: 1000px;
+}
+.full-page-arms-overlay {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(205, 211, 235, 0),
+      rgba(2, 16, 48, 0.982)
+    ),
+    url("https://i.imgur.com/2kZdWww.jpg?2");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  padding-top: 20px;
+  min-height: 1000px;
+}
+
+.full-page-abs {
+  background: url("https://i.imgur.com/2kZdWww.jpg?2") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  padding-top: 20px;
+  min-height: 1000px;
+}
+.full-page-abs-overlay {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(205, 211, 235, 0),
+      rgba(2, 16, 48, 0.982)
+    ),
+    url("https://i.imgur.com/2kZdWww.jpg?2");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  padding-top: 20px;
+  min-height: 1000px;
+}
+.full-page-cardio {
+  background: url("https://i.imgur.com/2kZdWww.jpg?2") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  padding-top: 20px;
+  min-height: 1000px;
+}
+.full-page-cardio-overlay {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(205, 211, 235, 0),
+      rgba(2, 16, 48, 0.982)
+    ),
+    url("https://i.imgur.com/2kZdWww.jpg?2");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  padding-top: 20px;
+  min-height: 1000px;
+}
+
+.full-page-back {
+  background: url("https://i.imgur.com/2kZdWww.jpg?2") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  padding-top: 20px;
+  min-height: 1000px;
+}
+.full-page-back-overlay {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(205, 211, 235, 0),
+      rgba(2, 16, 48, 0.982)
+    ),
+    url("https://i.imgur.com/2kZdWww.jpg?2");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  padding-top: 20px;
+  min-height: 1000px;
+}
+
+.full-page-recovery {
+  background: url("https://i.imgur.com/2kZdWww.jpg?2") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  padding-top: 20px;
+  min-height: 1000px;
+}
+.full-page-recovery-overlay {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(205, 211, 235, 0),
+      rgba(2, 16, 48, 0.982)
+    ),
+    url("https://i.imgur.com/2kZdWww.jpg?2");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  padding-top: 20px;
+  min-height: 1000px;
+}
+
+.full-page-form {
+  background: url("https://i.imgur.com/2kZdWww.jpg?2") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  padding-top: 20px;
+  min-height: 1000px;
+}
+.full-page-form-overlay {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(205, 211, 235, 0),
+      rgba(2, 16, 48, 0.982)
+    ),
+    url("https://i.imgur.com/2kZdWww.jpg?2");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 200px;
+  padding-top: 20px;
+  min-height: 1000px;
 }
 
 .homepage-header {
@@ -78,10 +292,12 @@ a {
 button {
   height: 100px;
   width: 300px;
-  font-size: 28px;
+  font-size: 32px;
   border-radius: 20px;
   border: none;
   outline: none;
+  background-color: #52d5e999;
+  color: white;
 }
 
 button:hover {

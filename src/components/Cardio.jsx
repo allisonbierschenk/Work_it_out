@@ -19,8 +19,8 @@ function Cardio(props) {
   });
 
   return (
-    <div className="full-page-cardio">
-      <h2>Logged Leg Workouts</h2>
+    <div className="full-page-cardio" className="full-page-cardio-overlay">
+      <h2>Logged Cardio Workouts</h2>
       <div className="logged-workout-display">
         {workouts.map((cardioObject, index) => (
           <div key={index} className="logged-workout">

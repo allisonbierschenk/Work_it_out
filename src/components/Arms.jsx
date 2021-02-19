@@ -19,8 +19,8 @@ function Arms(props) {
   });
 
   return (
-    <div className="full-page-arms">
-      <h2>Logged Leg Workouts</h2>
+    <div className="full-page-arms" className="full-page-arms-overlay">
+      <h2>Logged Arm Workouts</h2>
       <div className="logged-workout-display">
         {workouts.map((armObject, index) => (
           <div key={index} className="logged-workout">

@@ -10,7 +10,7 @@ function Home() {
     <div className="full-page-home" className="full-page-home-overlay">
       <h1 className="homepage-header">The Workout Tracker App</h1>
       <h2 className="homepage-subhead">
-        Log your workouts and track your progress
+        Log your workouts to track your progress
       </h2>
       <div className="homepage-buttons">
         <div className="homepage-left-buttons">

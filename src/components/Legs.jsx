@@ -19,7 +19,7 @@ function Legs(props) {
   });
 
   return (
-    <div className="full-page-legs">
+    <div className="full-page-legs" className="full-page-legs-overlay">
       <h2>Logged Leg Workouts</h2>
       <div className="logged-workout-display">
         {workouts.map((legObject, index) => (

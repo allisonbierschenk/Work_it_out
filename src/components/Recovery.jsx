@@ -19,8 +19,8 @@ function Recovery(props) {
   });
 
   return (
-    <div className="full-page-recovery">
-      <h2>Logged Leg Workouts</h2>
+    <div className="full-page-recovery" className="full-page-recovery-overlay">
+      <h2>Logged Recovery Workouts</h2>
       <div className="logged-workout-display">
         {workouts.map((recoveryObject, index) => (
           <div key={index} className="logged-workout">

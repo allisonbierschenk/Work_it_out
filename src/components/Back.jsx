@@ -19,8 +19,8 @@ function Back(props) {
   });
 
   return (
-    <div className="full-page-back">
-      <h2>Logged Leg Workouts</h2>
+    <div className="full-page-back" className="full-page-back-overlay">
+      <h2>Logged Back Workouts</h2>
       <div className="logged-workout-display">
         {workouts.map((backObject, index) => (
           <div key={index} className="logged-workout">
