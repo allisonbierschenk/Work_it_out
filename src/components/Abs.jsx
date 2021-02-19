@@ -19,7 +19,7 @@ function Abs(props) {
   });
 
   return (
-    <div>
+    <div className="full-page-abs">
       <h2>Logged Leg Workouts</h2>
       <div className="logged-workout-display">
         {workouts.map((abObject, index) => (

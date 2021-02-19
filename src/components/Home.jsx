@@ -7,7 +7,7 @@ function Home() {
   });
   return (
     //I need to link the buttons to the arms, abs, cardio etc pages.
-    <div>
+    <div className="full-page-home" className="full-page-home-overlay">
       <h1 className="homepage-header">The Workout Tracker App</h1>
       <h2 className="homepage-subhead">
         Log your workouts and track your progress
