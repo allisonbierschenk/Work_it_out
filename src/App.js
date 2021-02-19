@@ -39,22 +39,22 @@ function App() {
         <Form workouts={workouts} setToggleFetch={setToggleFetch} />
       </Route>
       <Route path="/legs">
-        <Legs workouts={workouts} />
+        <Legs workouts={workouts} setToggleFetch={setToggleFetch} />
       </Route>
       <Route path="/abs">
-        <Abs workouts={workouts} />
+        <Abs workouts={workouts} setToggleFetch={setToggleFetch} />
       </Route>
       <Route path="/arms">
-        <Arms workouts={workouts} />
+        <Arms workouts={workouts} setToggleFetch={setToggleFetch} />
       </Route>
       <Route path="/cardio">
-        <Cardio workouts={workouts} />
+        <Cardio workouts={workouts} setToggleFetch={setToggleFetch} />
       </Route>
       <Route path="/back">
-        <Back workouts={workouts} />
+        <Back workouts={workouts} setToggleFetch={setToggleFetch} />
       </Route>
       <Route path="/recovery">
-        <Recovery workouts={workouts} />
+        <Recovery workouts={workouts} setToggleFetch={setToggleFetch} />
       </Route>
       <div>
         <Footer />

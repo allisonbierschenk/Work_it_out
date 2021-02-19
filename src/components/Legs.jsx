@@ -1,9 +1,20 @@
-import { baseURL, config } from "../services";
+import { baseURL, config, queryURL } from "../services";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 function Legs(props) {
   const [workouts, setWorkouts] = useState([]);
+  // const legObject = props.workouts.map((legs) => {
+  //   return legs.id;
+  // });
+  console.log(workouts);
+
+  const deleteButton = async () => {
+    const URL = `${baseURL}/${props.workouts.id}`;
+    await axios.delete(URL, config);
+    props.setToggleFetch((curr) => !curr);
+  };
 
   useEffect(() => {
     if (props.workouts) {
@@ -41,9 +52,9 @@ function Legs(props) {
             <p> Reps completed: {legObject.fields.reps}</p>
             <p>Sets completed: {legObject.fields.sets}</p>
             <p>Weight used: {legObject.fields.weight}</p>
-            {/* <Link to={`/edit/${legObject.id}`}>
-              <button>Edit</button>
-            </Link> */}
+            <button className="delete-button" onClick={deleteButton}>
+              X
+            </button>
           </div>
         ))}
       </div>

@@ -310,10 +310,35 @@ button:hover {
   transition: all 300ms ease;
 }
 
-.logged-workout {
-  border: 1px solid black;
+.delete-button {
+  height: 25px;
+  width: 25px;
+  font-size: 14px;
   border-radius: 20px;
-  height: 250px;
+  border: none;
+  outline: none;
+  background-color: #52d5e999;
+  color: white;
+  float: right;
+}
+
+.delete-button:hover {
+  color: white;
+  background-color: rgba(2, 16, 48, 0.982);
+  border: white solid 2px;
+  opacity: 1;
+  transition: all 300ms ease;
+}
+
+.logged-workout {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #ffffff33;
+  border: 1px solid white;
+  border-radius: 20px;
+  height: auto;
   width: 200px;
   text-align: left;
   padding: 5px;
@@ -326,14 +351,19 @@ button:hover {
   margin: 10px 100px;
   justify-content: center;
 }
+.exercise-title {
+  border-bottom: 1px solid black;
+  color: hotpink;
+}
 .logged-workouts-inline-styling {
   font-weight: bold;
   color: aqua;
 }
 
-.exercise-title {
-  border-bottom: 1px solid black;
+.exercise-title:hover {
+  color: #fc4b2a;
 }
+
 .excersize-title-link {
   text-decoration: none;
   padding: none;
@@ -389,10 +419,4 @@ form {
 
 nav {
   background-color: rgba(1, 10, 29, 0.982);
-}
-
-select,
-option {
-  font-family: "Ubuntu", sans-serif;
-  /* font-weight: bolder; */
 }
