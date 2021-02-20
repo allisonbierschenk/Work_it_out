@@ -1,7 +1,9 @@
 .body {
   text-align: center;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Wire One", sans-serif;
   color: rgb(255, 255, 255);
+  font-size: 26px;
+  font-weight: bold;
 }
 
 .nav {
@@ -11,15 +13,189 @@
   padding: 5px;
   height: 50px;
 }
+p {
+  margin: 0px;
+}
 
 a {
   padding: 5px;
   margin: 0px;
 }
 
+.homepage-header {
+  margin: 0;
+  padding: 5px 0px;
+  font-family: "Wire One", sans-serif;
+  font-size: 80px;
+}
+
 h2 {
-  font-size: 34px;
-  font-weight: lighter;
+  font-size: 40px;
+}
+
+.homepage-buttons {
+  display: grid;
+  grid-template-areas:
+    "button button"
+    "button button"
+    "button button";
+}
+
+.homepage-left-buttons {
+  display: grid;
+  grid-template-areas:
+    "button"
+    "button"
+    "button";
+  justify-self: right;
+}
+
+.homepage-right-buttons {
+  display: grid;
+  grid-template-areas:
+    "button"
+    "button"
+    "button";
+  justify-self: left;
+}
+
+button {
+  height: 100px;
+  width: 300px;
+  font-size: 60px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #52d5e999;
+  color: white;
+  font-family: "Wire One", sans-serif;
+}
+
+button:hover {
+  color: white;
+  background-color: rgba(2, 16, 48, 0.982);
+  border: white solid 2px;
+  opacity: 1;
+  transition: all 300ms ease;
+}
+
+.delete-button {
+  height: 25px;
+  width: 25px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #52d5e999;
+  color: white;
+}
+
+.delete-button:hover {
+  color: white;
+  background-color: rgba(2, 16, 48, 0.982);
+  border: white solid 2px;
+  opacity: 1;
+  transition: all 300ms ease;
+}
+
+.logged-workout {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fcb6dd33;
+  border: 1px solid white;
+  border-radius: 20px;
+  height: auto;
+  width: 200px;
+  text-align: left;
+  padding: 5px;
+  margin: 0px 3px 6px 3px;
+}
+
+.logged-workout-display {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 100px;
+  justify-content: center;
+}
+.exercise-title {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  color: aqua;
+  font-size: 28px;
+}
+.logged-workouts-inline-styling {
+  font-weight: bold;
+  color: aqua;
+}
+
+.exercise-title:hover {
+  color: #f01650;
+}
+
+.excersize-title-link {
+  text-decoration: none;
+  padding: none;
+}
+
+form {
+  display: grid;
+  grid-template-areas:
+    "category category"
+    "field field"
+    "field field"
+    "field field";
+}
+form > category {
+  grid-area: category;
+}
+
+.form {
+  border: 0.2px solid gray;
+  text-align: left;
+  height: 40px;
+  font-family: "Wire One", sans-serif;
+  font-size: 20px;
+}
+
+.form-button {
+  height: 50px;
+  width: 100px;
+  font-size: 30px;
+  font-family: "Wire One", sans-serif;
+}
+
+.home-form-button {
+  margin-top: 10px;
+  background-color: #52d5e9cc;
+  width: 400px;
+}
+
+.footer {
+  border-top: 1px solid rgba(2, 16, 48, 0.982);
+  padding-top: 10px;
+  background-color: rgba(1, 10, 29, 0.982);
+  height: 100px;
+}
+
+.link-header,
+.link-footer {
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+}
+
+.link-footer {
+  font-size: 24px;
+}
+
+.link-header {
+  font-size: 30px;
+}
+
+nav {
+  background-color: rgba(1, 10, 29, 0.982);
 }
 
 .full-page-home {
@@ -253,181 +429,4 @@ h2 {
   padding-bottom: 200px;
   padding-top: 20px;
   min-height: 1000px;
-}
-
-.homepage-header {
-  margin: 0;
-  padding: 5px 0px;
-  font-family: "Fascinate Inline", cursive;
-  font-size: 60px;
-  font-weight: lighter;
-}
-
-.homepage-buttons {
-  display: grid;
-  grid-template-areas:
-    "button button"
-    "button button"
-    "button button";
-}
-
-.homepage-left-buttons {
-  display: grid;
-  grid-template-areas:
-    "button"
-    "button"
-    "button";
-  justify-self: right;
-}
-
-.homepage-right-buttons {
-  display: grid;
-  grid-template-areas:
-    "button"
-    "button"
-    "button";
-  justify-self: left;
-}
-
-button {
-  height: 100px;
-  width: 300px;
-  font-size: 32px;
-  border-radius: 20px;
-  border: none;
-  outline: none;
-  background-color: #52d5e999;
-  color: white;
-}
-
-button:hover {
-  color: white;
-  background-color: rgba(2, 16, 48, 0.982);
-  border: white solid 2px;
-  opacity: 1;
-  transition: all 300ms ease;
-}
-
-.delete-button {
-  height: 25px;
-  width: 25px;
-  font-size: 14px;
-  border-radius: 20px;
-  border: none;
-  outline: none;
-  background-color: #52d5e999;
-  color: white;
-  float: right;
-}
-
-.delete-button:hover {
-  color: white;
-  background-color: rgba(2, 16, 48, 0.982);
-  border: white solid 2px;
-  opacity: 1;
-  transition: all 300ms ease;
-}
-
-.logged-workout {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-around;
-  background-color: #fcb6dd33;
-  border: 1px solid white;
-  border-radius: 20px;
-  height: auto;
-  width: 200px;
-  text-align: left;
-  padding: 5px;
-  margin: 0px 3px 6px 3px;
-}
-
-.logged-workout-display {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 10px 100px;
-  justify-content: center;
-}
-.exercise-title {
-  border-bottom: 1px solid rgb(255, 255, 255);
-  color: aqua;
-  font-size: large;
-}
-.logged-workouts-inline-styling {
-  font-weight: bold;
-  color: aqua;
-}
-
-.exercise-title:hover {
-  color: #f01650;
-}
-
-.excersize-title-link {
-  text-decoration: none;
-  padding: none;
-}
-
-form {
-  display: grid;
-  grid-template-areas:
-    "category category"
-    "field field"
-    "field field"
-    "field field";
-  padding-top: 30px;
-}
-form > category {
-  grid-area: category;
-  width: 400px;
-}
-
-.form {
-  border: 0.2px solid gray;
-  text-align: left;
-  padding: 5px;
-  height: 40px;
-  font-family: "Open Sans Condensed", sans-serif;
-}
-
-.form-button {
-  display: flex;
-  border: 0.2px solid gray;
-  height: 50px;
-  width: 100px;
-  text-align: left;
-  font-size: 16px;
-  font-family: "Open Sans Condensed", sans-serif;
-}
-
-.home-form-button {
-  margin-top: 10px;
-  background-color: #52d5e9cc;
-  width: 400px;
-}
-
-.footer {
-  border-top: 1px solid rgba(2, 16, 48, 0.982);
-  padding-top: 10px;
-  background-color: rgba(1, 10, 29, 0.982);
-  height: 100px;
-}
-
-.link-header,
-.link-footer {
-  text-decoration: none;
-  margin: 5px;
-  color: white;
-}
-
-.link-footer {
-  font-size: 16px;
-}
-
-.link-header {
-  font-size: 20px;
-}
-
-nav {
-  background-color: rgba(1, 10, 29, 0.982);
 }
