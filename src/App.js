@@ -39,7 +39,11 @@ function App() {
         <Form workouts={workouts} setToggleFetch={setToggleFetch} />
       </Route>
       <Route path="/legs">
-        <Legs workouts={workouts} setToggleFetch={setToggleFetch} />
+        <Legs
+          key={workouts.id}
+          workouts={workouts}
+          setToggleFetch={setToggleFetch}
+        />
       </Route>
       <Route path="/abs">
         <Abs workouts={workouts} setToggleFetch={setToggleFetch} />

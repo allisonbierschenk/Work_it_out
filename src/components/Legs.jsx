@@ -5,9 +5,6 @@ import axios from "axios";
 
 function Legs(props) {
   const [workouts, setWorkouts] = useState([]);
-  // const legObject = props.workouts.map((legs) => {
-  //   return legs.id;
-  // });
   console.log(workouts);
 
   const deleteButton = async () => {
@@ -53,7 +50,7 @@ function Legs(props) {
             <p>Sets completed: {legObject.fields.sets}</p>
             <p>Weight used: {legObject.fields.weight}</p>
             <button className="delete-button" onClick={deleteButton}>
-              X
+              x
             </button>
           </div>
         ))}

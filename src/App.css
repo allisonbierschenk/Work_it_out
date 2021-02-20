@@ -29,7 +29,7 @@ h2 {
 
 .full-page-home {
   /* https://css-tricks.com/perfect-full-page-background-image/ */
-  background: url("https://i.imgur.com/2kZdWww.jpg?2") no-repeat center center
+  background: url("https://i.imgur.com/2kZdWww.jpg?4") no-repeat center center
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -47,7 +47,7 @@ h2 {
       rgba(205, 211, 235, 0),
       rgba(2, 16, 48, 0.982)
     ),
-    url("https://i.imgur.com/2kZdWww.jpg?2");
+    url("https://i.imgur.com/2kZdWww.jpg?4");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -88,7 +88,7 @@ h2 {
 }
 
 .full-page-arms {
-  background: url("https://i.imgur.com/k64TYsr.jpg?3") no-repeat center center
+  background: url("https://i.imgur.com/wQAfDAu.jpg?2") no-repeat center center
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -105,7 +105,7 @@ h2 {
       rgba(205, 211, 235, 0),
       rgba(2, 16, 48, 0.982)
     ),
-    url("https://i.imgur.com/k64TYsr.jpg?3");
+    url("https://i.imgur.com/wQAfDAu.jpg?2");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -117,7 +117,7 @@ h2 {
 }
 
 .full-page-abs {
-  background: url("https://i.imgur.com/2kZdWww.jpg?2") no-repeat center center
+  background: url("https://i.imgur.com/Vc907vk.jpg?1") no-repeat center center
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -134,7 +134,7 @@ h2 {
       rgba(205, 211, 235, 0),
       rgba(2, 16, 48, 0.982)
     ),
-    url("https://i.imgur.com/2kZdWww.jpg?2");
+    url("https://i.imgur.com/Vc907vk.jpg?1");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -145,7 +145,7 @@ h2 {
   min-height: 1000px;
 }
 .full-page-cardio {
-  background: url("https://i.imgur.com/fbJPw7G.jpg?2") no-repeat center center
+  background: url("https://i.imgur.com/HBtgETz.jpg?1") no-repeat center center
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -162,7 +162,7 @@ h2 {
       rgba(205, 211, 235, 0),
       rgba(2, 16, 48, 0.982)
     ),
-    url("https://i.imgur.com/fbJPw7G.jpg?2");
+    url("https://i.imgur.com/HBtgETz.jpg?1");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -174,7 +174,7 @@ h2 {
 }
 
 .full-page-back {
-  background: url("https://i.imgur.com/2kZdWww.jpg?2") no-repeat center center
+  background: url("https://i.imgur.com/k64TYsr.jpg?3") no-repeat center center
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -191,7 +191,7 @@ h2 {
       rgba(205, 211, 235, 0),
       rgba(2, 16, 48, 0.982)
     ),
-    url("https://i.imgur.com/2kZdWww.jpg?2");
+    url("https://i.imgur.com/k64TYsr.jpg?3");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -203,7 +203,7 @@ h2 {
 }
 
 .full-page-recovery {
-  background: url("https://i.imgur.com/PZWzZoh.jpg?2") no-repeat center center
+  background: url("https://i.imgur.com/opzwkEd.jpg?1") no-repeat center center
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -220,7 +220,7 @@ h2 {
       rgba(205, 211, 235, 0),
       rgba(2, 16, 48, 0.982)
     ),
-    url("https://i.imgur.com/PZWzZoh.jpg?2");
+    url("https://i.imgur.com/opzwkEd.jpg?1");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -370,27 +370,35 @@ button:hover {
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  margin-top: 30px;
+  display: grid;
+  grid-template-areas:
+    "category category"
+    "field field"
+    "field field"
+    "field field";
+  padding-top: 30px;
+  /* grid-area: category;
+  width: 400px; */
+}
+form > category {
+  grid-area: category;
+  width: 400px;
 }
 
 .form {
   border: 0.2px solid gray;
   text-align: left;
-  margin: 2px 500px 0.5px 500px;
   padding: 5px;
   height: 40px;
   font-family: "Ubuntu", sans-serif;
 }
 
 .form-button {
+  display: flex;
   border: 0.2px solid gray;
-  margin: 2px 500px 0.5px 500px;
   height: 50px;
   width: 100px;
   text-align: left;
-  padding: 5px;
   font-size: 16px;
   font-family: "Ubuntu", sans-serif;
 }
