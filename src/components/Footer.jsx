@@ -6,9 +6,6 @@ function Footer() {
       <Link className="link-footer" to="/">
         Home
       </Link>
-      <Link className="link-footer" to="/form">
-        Tracker
-      </Link>
       <Link className="link-footer" to="/legs">
         Legs
       </Link>
@@ -26,6 +23,9 @@ function Footer() {
       </Link>
       <Link className="link-footer" to="/recovery">
         Recovery
+      </Link>
+      <Link className="link-footer" to="/form">
+        Log Your Progress
       </Link>
     </nav>
   );

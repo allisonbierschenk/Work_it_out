@@ -1,7 +1,7 @@
 .body {
   text-align: center;
-  font-family: "Ubuntu", sans-serif;
-  color: white;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: rgb(255, 255, 255);
 }
 
 .nav {
@@ -335,7 +335,7 @@ button:hover {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #ffffff33;
+  background-color: #fcb6dd33;
   border: 1px solid white;
   border-radius: 20px;
   height: auto;
@@ -352,8 +352,9 @@ button:hover {
   justify-content: center;
 }
 .exercise-title {
-  border-bottom: 1px solid black;
-  color: hotpink;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  color: aqua;
+  font-size: large;
 }
 .logged-workouts-inline-styling {
   font-weight: bold;
@@ -361,7 +362,7 @@ button:hover {
 }
 
 .exercise-title:hover {
-  color: #fc4b2a;
+  color: #f01650;
 }
 
 .excersize-title-link {
@@ -377,8 +378,6 @@ form {
     "field field"
     "field field";
   padding-top: 30px;
-  /* grid-area: category;
-  width: 400px; */
 }
 form > category {
   grid-area: category;
@@ -390,7 +389,7 @@ form > category {
   text-align: left;
   padding: 5px;
   height: 40px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 .form-button {
@@ -400,7 +399,13 @@ form > category {
   width: 100px;
   text-align: left;
   font-size: 16px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.home-form-button {
+  margin-top: 10px;
+  background-color: #52d5e9cc;
+  width: 400px;
 }
 
 .footer {

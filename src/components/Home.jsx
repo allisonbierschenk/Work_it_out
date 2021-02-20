@@ -38,7 +38,7 @@ function Home() {
       </div>
       <div>
         <Link to="/form">
-          <button>Log a New Workout</button>
+          <button className="home-form-button">Log Your Progress</button>
         </Link>
       </div>
     </div>
