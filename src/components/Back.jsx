@@ -1,6 +1,7 @@
 import { baseURL, config } from "../services";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Delete from "../components/Delete";
 
 function Back(props) {
   const [workouts, setWorkouts] = useState([]);
@@ -44,6 +45,10 @@ function Back(props) {
             <p> Reps completed: {backObject.fields.reps}</p>
             <p>Sets completed: {backObject.fields.sets}</p>
             <p>Weight used: {backObject.fields.weight}</p>
+            <Delete
+              legObjectID={backObject}
+              setToggleFetch={props.setToggleFetch}
+            />
           </div>
         ))}
       </div>

@@ -1,11 +1,11 @@
 import { baseURL, config, queryURL } from "../services";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Delete from "../components/Delete";
 import axios from "axios";
 
 function Legs(props) {
   const [workouts, setWorkouts] = useState([]);
-  console.log(workouts);
 
   const deleteButton = async () => {
     const URL = `${baseURL}/${props.workouts.id}`;
@@ -49,9 +49,10 @@ function Legs(props) {
             <p> Reps completed: {legObject.fields.reps}</p>
             <p>Sets completed: {legObject.fields.sets}</p>
             <p>Weight used: {legObject.fields.weight}</p>
-            <button className="delete-button" onClick={deleteButton}>
-              x
-            </button>
+            <Delete
+              legObjectID={legObject}
+              setToggleFetch={props.setToggleFetch}
+            />
           </div>
         ))}
       </div>

@@ -5,6 +5,7 @@ import Abs from "./components/Abs";
 import Arms from "./components/Arms";
 import Back from "./components/Back";
 import Cardio from "./components/Cardio";
+import Delete from "./components/Delete";
 import Footer from "./components/Footer";
 import Form from "./components/Form";
 import Home from "./components/Home";
@@ -39,11 +40,7 @@ function App() {
         <Form workouts={workouts} setToggleFetch={setToggleFetch} />
       </Route>
       <Route path="/legs">
-        <Legs
-          key={workouts.id}
-          workouts={workouts}
-          setToggleFetch={setToggleFetch}
-        />
+        <Legs workouts={workouts} setToggleFetch={setToggleFetch} />
       </Route>
       <Route path="/abs">
         <Abs workouts={workouts} setToggleFetch={setToggleFetch} />

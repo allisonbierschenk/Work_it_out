@@ -1,6 +1,7 @@
 import { baseURL, config } from "../services";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Delete from "../components/Delete";
 
 function Abs(props) {
   const [workouts, setWorkouts] = useState([]);
@@ -41,6 +42,10 @@ function Abs(props) {
             <p> Reps completed: {abObject.fields.reps}</p>
             <p>Sets completed: {abObject.fields.sets}</p>
             <p>Weight used: {abObject.fields.weight}</p>
+            <Delete
+              legObjectID={abObject}
+              setToggleFetch={props.setToggleFetch}
+            />
           </div>
         ))}
       </div>

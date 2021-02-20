@@ -1,6 +1,7 @@
 import { baseURL, config } from "../services";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Delete from "../components/Delete";
 
 function Arms(props) {
   const [workouts, setWorkouts] = useState([]);
@@ -41,9 +42,10 @@ function Arms(props) {
             <p> Reps completed: {armObject.fields.reps}</p>
             <p>Sets completed: {armObject.fields.sets}</p>
             <p>Weight used: {armObject.fields.weight}</p>
-            {/* <Link to={`/edit/${legObject.id}`}>
-              <button>Edit</button>
-            </Link> */}
+            <Delete
+              legObjectID={armObject}
+              setToggleFetch={props.setToggleFetch}
+            />
           </div>
         ))}
       </div>

@@ -84,7 +84,6 @@ button:hover {
   width: 25px;
   font-size: 22px;
   font-weight: bold;
-  border-radius: 20px;
   border: none;
   outline: none;
   background-color: #52d5e999;
@@ -94,7 +93,7 @@ button:hover {
 .delete-button:hover {
   color: white;
   background-color: rgba(2, 16, 48, 0.982);
-  border: white solid 2px;
+  border: white solid 1px;
   opacity: 1;
   transition: all 300ms ease;
 }

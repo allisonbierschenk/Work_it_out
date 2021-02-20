@@ -1,6 +1,7 @@
 import { baseURL, config } from "../services";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Delete from "../components/Delete";
 
 function Recovery(props) {
   const [workouts, setWorkouts] = useState([]);
@@ -44,6 +45,10 @@ function Recovery(props) {
             <p> Reps completed: {recoveryObject.fields.reps}</p>
             <p>Sets completed: {recoveryObject.fields.sets}</p>
             <p>Weight used: {recoveryObject.fields.weight}</p>
+            <Delete
+              legObjectID={recoveryObject}
+              setToggleFetch={props.setToggleFetch}
+            />
           </div>
         ))}
       </div>
