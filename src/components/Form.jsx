@@ -57,10 +57,11 @@ function Form(props) {
 
   return (
     <div className="full-page-form" className="full-page-form-overlay">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="full-form">
         {/* https://reactjs.org/docs/forms.html */}
         <select
-          className="form"
+          className="dropdown"
+          id="dropdown"
           value={category}
           onChange={(e) => setCategory(e.target.value)}
         >
@@ -73,48 +74,59 @@ function Form(props) {
           <option value="recovery">Recovery</option>
         </select>
         <input
-          className="form"
+          className="form-field"
+          id="form-field"
           type="text"
           placeholder="workout"
           value={workout}
           onChange={(e) => setWorkout(e.target.value)}
         ></input>
         <input
-          className="form"
+          className="form-field"
+          id="form-field"
           type="text"
           placeholder="date"
           value={date}
           onChange={(e) => setDate(e.target.value)}
         ></input>
         <input
-          className="form"
+          className="form-field"
+          id="form-field"
           type="text"
           placeholder="time"
           value={time}
           onChange={(e) => setTime(e.target.value)}
         ></input>
         <input
-          className="form"
+          className="form-field"
+          id="form-field"
           type="text"
           placeholder="reps"
           value={reps}
           onChange={(e) => setReps(e.target.value)}
         ></input>
         <input
-          className="form"
+          className="form-field"
+          id="form-field"
           type="text"
           placeholder="sets"
           value={sets}
           onChange={(e) => setSets(e.target.value)}
         ></input>
         <input
-          className="form"
+          className="form-field"
+          id="form-field"
           type="text"
           placeholder="weight"
           value={weight}
           onChange={(e) => setWeight(e.target.value)}
         ></input>
-        <button className="form-button" type="submit" onSubmit={handleSubmit}>
+        <button
+          className="form-button"
+          id="form-button"
+          type="submit"
+          onSubmit={handleSubmit}
+        >
           Log
         </button>
       </form>

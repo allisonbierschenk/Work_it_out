@@ -18,21 +18,21 @@ function Home() {
             <button className="button">Legs</button>
           </Link>
           <Link to="/arms">
-            <button>Arms</button>
+            <button className="button">Arms</button>
           </Link>
           <Link to="/back">
-            <button>Back</button>
+            <button className="button">Back</button>
           </Link>
         </div>
         <div className="homepage-right-buttons">
           <Link to="/abs">
-            <button>Abs</button>
+            <button className="button">Abs</button>
           </Link>
           <Link to="/cardio">
-            <button>Cardio</button>
+            <button className="button">Cardio</button>
           </Link>
           <Link to="/recovery">
-            <button>Recovery</button>
+            <button className="button">Recovery</button>
           </Link>
         </div>
       </div>
