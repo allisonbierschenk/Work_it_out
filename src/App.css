@@ -537,4 +537,11 @@ nav {
       "button";
     justify-self: center;
   }
+
+  .button:hover {
+    color: white;
+    background-color: rgba(2, 16, 48, 0.982);
+    border: white solid 2px;
+    opacity: 1;
+  }
 }
