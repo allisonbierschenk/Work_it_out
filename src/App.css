@@ -462,7 +462,7 @@ nav {
   padding-top: 20px;
   min-height: 1000px;
 }
-
+/* https://1stwebdesigner.com/15-css-background-effects/ */
 .full-page-form {
   background: linear-gradient(-45deg, #ee7752, #e36092, #23a6d5, #52d5e9);
   background-size: 400% 400%;
@@ -494,7 +494,7 @@ nav {
 
 /* media query */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 350px) {
   .full-page-legs,
   .full-page-abs,
   .full-page-back,
