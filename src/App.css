@@ -577,6 +577,7 @@ nav {
     display: flex;
     flex-direction: column;
     height: 280px;
+    width: 400px;
     justify-content: space-around;
     border: solid 20px rgba(2, 16, 48, 0.982);
   }
