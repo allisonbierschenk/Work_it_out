@@ -15,7 +15,7 @@ function Legs(props) {
 
   useEffect(() => {
     if (props.workouts) {
-      const legCategory = props.workouts.filter((legs) => {
+      let legCategory = props.workouts.filter((legs) => {
         return legs.fields.category.includes("legs");
       });
       setWorkouts(legCategory);
