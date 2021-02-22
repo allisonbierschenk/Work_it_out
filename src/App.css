@@ -576,7 +576,7 @@ nav {
   .full-form {
     display: flex;
     flex-direction: column;
-    height: 370px;
+    height: 380px;
     width: auto;
     justify-content: space-around;
     border: solid 10px rgba(2, 16, 48, 0.982);
