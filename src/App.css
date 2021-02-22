@@ -494,7 +494,7 @@ nav {
 
 /* media query */
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 550px) {
   .full-page-legs,
   .full-page-abs,
   .full-page-back,
@@ -577,7 +577,6 @@ nav {
     display: flex;
     flex-direction: column;
     height: 280px;
-    width: 400px;
     justify-content: space-around;
     border: solid 20px rgba(2, 16, 48, 0.982);
   }
