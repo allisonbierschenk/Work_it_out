@@ -545,4 +545,10 @@ nav {
     opacity: 1;
     transition: all 300ms ease;
   }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
