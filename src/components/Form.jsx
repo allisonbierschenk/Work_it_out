@@ -57,6 +57,7 @@ function Form(props) {
 
   return (
     <div className="full-page-form" className="full-page-form-overlay">
+      <h3>Fill out the form below to log your latest workout.</h3>
       <form onSubmit={handleSubmit} className="full-form">
         {/* https://reactjs.org/docs/forms.html */}
         <select
@@ -64,8 +65,9 @@ function Form(props) {
           id="dropdown"
           value={category}
           onChange={(e) => setCategory(e.target.value)}
+          required
         >
-          <option selected disabled hidden value="legs">
+          <option selected disabled hidden value="">
             Select a Category
           </option>
           <option value="legs">Legs</option>
