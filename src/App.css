@@ -506,9 +506,6 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
   }
-}
-
-@media screen and (max-width: 750px) {
   .homepage-buttons {
     display: grid;
     grid-template-areas:
