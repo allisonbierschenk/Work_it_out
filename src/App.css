@@ -238,7 +238,7 @@ nav {
 
 .full-page-home {
   /* https://css-tricks.com/perfect-full-page-background-image/ */
-  background: url("https://i.imgur.com/2kZdWww.jpg?4") no-repeat center center
+  background: url("https://i.imgur.com/Xwnk9Xk.jpg") no-repeat center center
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -256,7 +256,7 @@ nav {
       rgba(205, 211, 235, 0),
       rgba(2, 16, 48, 0.982)
     ),
-    url("https://i.imgur.com/2kZdWww.jpg?4");
+    url("https://i.imgur.com/Xwnk9Xk.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -268,7 +268,7 @@ nav {
 }
 
 .full-page-legs {
-  background: url("https://i.imgur.com/QWwVXE9.jpg") no-repeat center center
+  background: url("https://i.imgur.com/0jEv5CC.jpg") no-repeat center center
     fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -285,7 +285,7 @@ nav {
       rgba(205, 211, 235, 0),
       rgba(2, 16, 48, 0.982)
     ),
-    url("https://i.imgur.com/QWwVXE9.jpg");
+    url("https://i.imgur.com/0jEv5CC.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
