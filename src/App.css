@@ -584,6 +584,7 @@ nav {
 
   #dropdown {
     grid-column: 1 / span 2;
+    height: auto;
     padding: 3px;
     color: rgb(21, 51, 77);
     border: none;
