@@ -479,7 +479,7 @@ nav {
   .full-page-arms,
   .full-page-recovery,
   .full-page-home {
-    background: url("https://i.imgur.com/w1gABsP.jpg?1") no-repeat center center
+    background: url("https://i.imgur.com/w1gABsP.jpg?2") no-repeat center center
       fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -499,7 +499,7 @@ nav {
         rgba(2, 16, 48, 0.982),
         rgba(153, 173, 255, 0)
       ),
-      url("https://i.imgur.com/w1gABsP.jpg?1");
+      url("https://i.imgur.com/w1gABsP.jpg?2");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
