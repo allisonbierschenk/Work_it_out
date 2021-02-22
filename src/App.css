@@ -491,6 +491,42 @@ nav {
 }
 
 /* media query */
+@media screen and (max-width: 1000px) {
+  .full-page-legs,
+  .full-page-abs,
+  .full-page-back,
+  .full-page-cardio,
+  .full-page-arms,
+  .full-page-recovery,
+  .full-page-home {
+    background: url("https://i.imgur.com/w1gABsP.jpg?2") no-repeat center center
+      fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .full-page-legs-overlay,
+  .full-page-abs-overlay,
+  .full-page-back-overlay,
+  .full-page-cardio-overlay,
+  .full-page-recovery-overlay,
+  .full-page-arms-overlay,
+  .full-page-home-overlay {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(2, 16, 48, 0.982),
+        rgba(153, 173, 255, 0)
+      ),
+      url("https://i.imgur.com/w1gABsP.jpg?2");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
 
 @media screen and (max-width: 550px) {
   .full-page-legs,
@@ -578,7 +614,7 @@ nav {
     width: auto;
     justify-content: space-around;
     border: solid 10px rgba(2, 16, 48, 0.982);
-    margin: 3px;
+    /* margin: 3px; */
   }
 
   #dropdown {
@@ -595,7 +631,7 @@ nav {
     font-weight: bolder;
     font-family: "Wire One", sans-serif;
     border: none;
-    margin-top: 2px;
+    /* margin-top: 2px; */
     background-color: #52d5e9cc;
     outline: none;
   }
@@ -605,7 +641,7 @@ nav {
     font-family: "Wire One", sans-serif;
     font-size: 30px;
     outline: none;
-    margin-top: 2px;
+    /* margin-top: 2px; */
     padding: 3px;
     background-color: rgba(153, 240, 255, 0.132);
     border: none;
