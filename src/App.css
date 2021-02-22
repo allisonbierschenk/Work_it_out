@@ -614,7 +614,7 @@ nav {
     width: auto;
     justify-content: space-around;
     border: solid 10px rgba(2, 16, 48, 0.982);
-    margin: 3px;
+    margin: 3px, 3px, 0px, 3px;
   }
 
   #dropdown {
