@@ -80,10 +80,11 @@ h2 {
 }
 
 .delete-button {
-  height: 25px;
-  width: 25px;
+  display: flex;
+  width: 30px;
   font-size: 22px;
-  font-weight: bold;
+  border-radius: 50px;
+  justify-content: space-around;
   border: none;
   outline: none;
   background-color: #52d5e999;
@@ -154,7 +155,6 @@ h2 {
   padding: 3px;
   color: rgb(21, 51, 77);
   border: none;
-  border-bottom: rgb(0, 179, 255) 1px solid;
 }
 
 #form-button {
@@ -172,7 +172,7 @@ h2 {
   outline: none;
   margin-top: 2px;
   padding: 3px;
-  border: rgb(146, 207, 233) 1px solid;
+  border: rgb(174, 221, 242) 0.5px solid;
 }
 
 ::-webkit-input-placeholder {
@@ -467,4 +467,74 @@ nav {
   padding-bottom: 200px;
   padding-top: 20px;
   min-height: 1000px;
+}
+
+/* media query */
+
+@media screen and (max-width: 750px) {
+  .full-page-legs,
+  .full-page-abs,
+  .full-page-back,
+  .full-page-cardio,
+  .full-page-arms,
+  .full-page-recovery,
+  .full-page-home {
+    background: url("https://i.imgur.com/kK21Wpq.jpg") no-repeat center center
+      fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .full-page-legs-overlay,
+  .full-page-abs-overlay,
+  .full-page-back-overlay,
+  .full-page-cardio-overlay,
+  .full-page-recovery-overlay,
+  .full-page-arms-overlay,
+  .full-page-home-overlay {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(2, 16, 48, 0.982),
+        rgba(153, 173, 255, 0)
+      ),
+      url("https://i.imgur.com/kK21Wpq.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .homepage-buttons {
+    display: grid;
+    grid-template-areas:
+      "button"
+      "button"
+      "button"
+      "button"
+      "button"
+      "button";
+  }
+
+  .homepage-left-buttons {
+    display: grid;
+    grid-template-areas:
+      "button"
+      "button"
+      "button";
+    justify-self: center;
+  }
+
+  .homepage-right-buttons {
+    display: grid;
+    grid-template-areas:
+      "button"
+      "button"
+      "button";
+    justify-self: center;
+  }
 }
