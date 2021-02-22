@@ -65,7 +65,7 @@ function Form(props) {
           value={category}
           onChange={(e) => setCategory(e.target.value)}
         >
-          <option selected disabled hidden value="">
+          <option disabled hidden value="legs">
             Select a Category
           </option>
           <option value="legs">Legs</option>
