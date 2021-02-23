@@ -1,4 +1,3 @@
-import { baseURL, config } from "../services";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Delete from "../components/Delete";

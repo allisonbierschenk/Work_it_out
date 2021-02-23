@@ -1,8 +1,6 @@
-import { baseURL, config, queryURL } from "../services";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Delete from "../components/Delete";
-import axios from "axios";
 
 function Legs(props) {
   const [workouts, setWorkouts] = useState([]);
