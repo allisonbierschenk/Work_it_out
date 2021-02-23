@@ -499,8 +499,7 @@ nav {
   .full-page-arms,
   .full-page-recovery,
   .full-page-home {
-    background: url("https://i.imgur.com/w1gABsP.jpg?2") no-repeat center center
-      fixed;
+    background: url("https://i.imgur.com/w1gABsP.jpg?2") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -536,8 +535,7 @@ nav {
   .full-page-arms,
   .full-page-recovery,
   .full-page-home {
-    background: url("https://i.imgur.com/w1gABsP.jpg?2") no-repeat center center
-      fixed;
+    background: url("https://i.imgur.com/w1gABsP.jpg?2") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -631,7 +629,6 @@ nav {
     font-weight: bolder;
     font-family: "Wire One", sans-serif;
     border: none;
-    /* margin-top: 2px; */
     background-color: #52d5e9cc;
     outline: none;
   }
@@ -641,7 +638,6 @@ nav {
     font-family: "Wire One", sans-serif;
     font-size: 30px;
     outline: none;
-    /* margin-top: 2px; */
     padding: 3px;
     background-color: rgba(153, 240, 255, 0.132);
     border: none;
