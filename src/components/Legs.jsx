@@ -7,12 +7,6 @@ import axios from "axios";
 function Legs(props) {
   const [workouts, setWorkouts] = useState([]);
 
-  const deleteButton = async () => {
-    const URL = `${baseURL}/${props.workouts.id}`;
-    await axios.delete(URL, config);
-    props.setToggleFetch((curr) => !curr);
-  };
-
   useEffect(() => {
     if (props.workouts) {
       let legCategory = props.workouts.filter((legs) => {

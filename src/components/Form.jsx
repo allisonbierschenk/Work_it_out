@@ -81,7 +81,7 @@ function Form(props) {
           className="form-field"
           id="form-field"
           type="text"
-          placeholder="workout"
+          placeholder="workout:"
           value={workout}
           onChange={(e) => setWorkout(e.target.value)}
         ></input>
@@ -89,7 +89,7 @@ function Form(props) {
           className="form-field"
           id="form-field"
           type="text"
-          placeholder="date"
+          placeholder="date:"
           value={date}
           onChange={(e) => setDate(e.target.value)}
         ></input>
@@ -97,7 +97,7 @@ function Form(props) {
           className="form-field"
           id="form-field"
           type="text"
-          placeholder="time"
+          placeholder="time:"
           value={time}
           onChange={(e) => setTime(e.target.value)}
         ></input>
@@ -105,7 +105,7 @@ function Form(props) {
           className="form-field"
           id="form-field"
           type="text"
-          placeholder="reps"
+          placeholder="reps:"
           value={reps}
           onChange={(e) => setReps(e.target.value)}
         ></input>
@@ -113,7 +113,7 @@ function Form(props) {
           className="form-field"
           id="form-field"
           type="text"
-          placeholder="sets"
+          placeholder="sets:"
           value={sets}
           onChange={(e) => setSets(e.target.value)}
         ></input>
@@ -121,7 +121,7 @@ function Form(props) {
           className="form-field"
           id="form-field"
           type="text"
-          placeholder="weight"
+          placeholder="weight:"
           value={weight}
           onChange={(e) => setWeight(e.target.value)}
         ></input>
