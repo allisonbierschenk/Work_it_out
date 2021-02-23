@@ -527,13 +527,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 550px) {
-  .full-page-legs,
-  .full-page-abs,
-  .full-page-back,
-  .full-page-cardio,
-  .full-page-arms,
-  .full-page-recovery,
+@media screen and (max-width: 600px) {
   .full-page-home {
     background: url("https://i.imgur.com/w1gABsP.jpg?2") no-repeat center center;
     -webkit-background-size: cover;
@@ -542,12 +536,7 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
   }
-  .full-page-legs-overlay,
-  .full-page-abs-overlay,
-  .full-page-back-overlay,
-  .full-page-cardio-overlay,
-  .full-page-recovery-overlay,
-  .full-page-arms-overlay,
+
   .full-page-home-overlay {
     background-image: linear-gradient(
         to bottom,
@@ -560,6 +549,19 @@ nav {
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  .full-page-legs-overlay,
+  .full-page-abs-overlay,
+  .full-page-back-overlay,
+  .full-page-cardio-overlay,
+  .full-page-recovery-overlay,
+  .full-page-arms-overlay {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(2, 16, 48, 0.982),
+      rgba(153, 173, 255, 0)
+    );
   }
   .homepage-buttons {
     display: grid;
