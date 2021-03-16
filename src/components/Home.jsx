@@ -4,7 +4,7 @@ import { useEffect } from "react";
 function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
-  });
+  }, []);
   return (
     //I need to link the buttons to the arms, abs, cardio etc pages.
     <div className="full-page-home" className="full-page-home-overlay">
